@@ -1,0 +1,45 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+@import "flowbite";
+
+
+
+.img1{
+  position: absolute;
+left: 5.5%;
+right: 60.43%;
+top: 0.36%;
+bottom: 43.31%;
+
+background: url('/travel/public/ron.png');
+border-radius: 252px;
+
+}
+.img2{
+  position: absolute;
+left: 5.5%;
+right: 60.43%;
+top: 0.36%;
+bottom: 43.31%;
+
+background: url('/travel/public/round.png');
+border-radius: 252px;
+
+}
+
+
+.bg-center{
+background-image: url('/travel/public/form.png');
+}

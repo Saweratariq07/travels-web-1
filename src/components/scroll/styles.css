@@ -1,0 +1,21 @@
+/* Scrolling animation keyframes */
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Apply animation to badges */
+  .badges {
+    display: flex;
+    animation: scroll 25s linear infinite;
+  }
+  
+  /* Prevent shrinking of badges */
+  .badges > div {
+    flex-shrink: 0;
+  }
+  
