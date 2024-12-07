@@ -4,18 +4,17 @@ function Main() {
   return (
     <div>
       <div className="flex flex-wrap container rounded-[15px] overflow-hidden py-8 mx-auto">
-        {/* Left Section */}
         <div className="flex-1 relative  flex-col justify-center items-center p-5 hidden sm:flex">
           <div>
             <img
-              src="img/building.png"
+              src="/building.png"
               alt="Building"
               className="h-[280px] md:h-[560px] rounded-[20px] mb-4 object-cover"
             />
           </div>
           <div className="absolute left-[10%] md:left-[200px] top-[50px] md:top-[180px]">
             <img
-              src="img/building2.png"
+              src="/building2.png"
               alt="Building 2"
               className="h-[280px] md:h-[560px] rounded-[20px] object-cover"
             />
@@ -30,7 +29,7 @@ function Main() {
               Fantastic 9.0
             </p>
             <img
-              src="img/stars.png"
+              src="/stars.png"
               alt="Stars"
               className="w-[100px] md:w-[150px] mb-4"
             />
